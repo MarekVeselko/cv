@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+/***********FIRST PART************/
+
+.first-part{
+    display: flex;
+    justify-content: center;
+}
+
+.image-box img{
+    width: 30rem;
+    border-radius: 10px;
+}
+
+.title-box{
+    margin-top: 15rem;
+    border-bottom: 1px solid #999;
+    width:60%;
+    text-align: center;
+
+
+}
+
+.title-box h1{
+    font-size: 5rem;
+    text-transform: uppercase;
+}
+
+.title-box h2{
+    font-size: 2.5rem;
+    margin-top: 2rem;
+}
+
+/**************SECOND-PART***********/
+
+.second-part{
+    display: flex;
+    margin-top: 4rem;
+}
+
+.skills .skills__first-line img,
+.skills .skills__second-line img,
+.skills .skills__third-line img,
+.skills .skills__fourth-line img{
+    width: 8rem;
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 25%;
+    margin-left: 15rem;
+}
+
+.skills h2{
+    text-align: center;
+    font-size: 3.5rem;
+    margin-bottom: 3rem;
+}
+
+.skills .skills__first-line{
+    display: flex;
+    justify-content: space-between;
+}
+.skills .skills__second-line{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4rem;
+}
+.skills .skills__third-line{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+.skills .skills__fourth-line{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4rem;    
+}
+
+.experience{
+    margin-left: 20rem;
+    width: 55rem;
+    
+}
+
+.experience h2{
+   font-size: 3.5rem;
+   text-align: center;
+   margin-bottom: 4rem;
+}
+
+
+.company-box{
+    display: flex;
+    margin-bottom: 3rem;
+    justify-content: space-between;
+}
+.company-box .info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.company-box .time{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+.company-box .info h3{
+    font-size: 2.5rem;
+}
+.company-box .info p{
+    font-size: 1.4rem;
+    margin-top: 1rem;
+}
+
+/**********THIRD PART*************/
+
+.third-part{
+    display: flex;
+    margin-top: 5rem;
+}
+.languages{
+    margin-left: 15rem;
+    width: 25%;
+    position: relative;
+}
+
+.languages h2{
+    font-size: 3.5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.languages .flags{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10rem;
+}
+
+.languages .flags img{
+width: 15rem;
+border-radius: 5px;
+}
+
+
+.education{
+    margin-left: 20rem;
+    width: 55rem;
+}
+
+.education h2{
+    font-size: 3.5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.school-box{
+    display: flex;
+    margin-bottom: 3rem;
+    justify-content: space-between;
+}
+
+.education .school-box .info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.education .school-box .time{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+.education .school-box .info h3{
+    font-size: 2.5rem;
+}
+.education .school-box .info p{
+    font-size: 1.4rem;
+    margin-top: 1rem;
+}
+
